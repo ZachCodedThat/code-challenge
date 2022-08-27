@@ -1,31 +1,33 @@
+# Blue Bunny Coding Challenge
 
-# Blue Rabbit Code Challenge
+## To get this thing fired up:
 
-Fork this repo and create a Full Stack app using languages and frameworks of your choice that 
-*literally* introduces you to us. Submit your response back to us here in the form of a pull 
-request or submit it to us privately. Please don't spend more than a couple hours on it. It's ok
-if you don't finish, just tackle the requirements in order and take it as far as you can in the time frame.
+- `npm install`
 
-Include A README with instructions on how to build/run the app. Use the README to let us know
-why you chose the technologies you did. Notes on design patterns, challenges, or aspects
-of your stack that you find interesting are also appreciated!
+- `npm run start`
 
-### Requirements
-1. Create an API with an endpoint or operation that we can call that tells us your name. The shape of the data 
-and the storage mechanism are up to you. It's ok if it takes no params and returns only your name.
-2. Create a minimal frontend that calls your api and displays your name when we run it.
-3. Add an API endpoint or operation that takes a name and stores it.
-4. Add an input to the frontend that we can use to submit a name to the endpoint or operation you just created.  
-5. Add an input to the frontend that lets us upload an image avatar and submit it to your API.
+---
 
+## What's under the hood
 
+I used React and Typescript to build this out. React in this instance I wanted useState and access to JSX which makes setting data and getting it to screen when I want it that much less of a hassle. TS gives me that sweet sweet intelisense and pushes me to better data flow patterns when I am not using it.
 
+To super charge the situation I am using [Zod](https://github.com/colinhacks/zod) and a package called [react-Zorm](https://github.com/esamattis/react-zorm) (shout out to them this package is AWESOME) to help me with the always fun task of form validation and lets me do cool stuff like:
 
+-being able to throw custom errors and easily validate inputs locking down the form from sending anything other than the specified input.
 
+<img  alt="Cool Zod feature 1"  src="https://res.cloudinary.com/dey85zjmf/image/upload/v1661570337/ReadmeAsset2_t4io1y.png" />
 
+-on the dev side these errors can be as simple or complicated as we want and point us right at the issues if things aren't working properly.
 
-    
+<img  alt="Cool Zod feature 2"  src="https://res.cloudinary.com/dey85zjmf/image/upload/v1661570337/ReadmeAsset3_p05zhn.png" />
 
+## Thoughts and process
 
+To keep it within the spirit of the challenge time frame I didn't set up any node related shenanigan's or any outside DB stuff. In a production world where the API is more complicated I would get something like TRPC involved to ensure type safety on those endpoints and again sweet sweet intelisense. I would also add more robust validation around image URLs. Right now I am bluffing with the current error message as any URL will pass the validation.
 
+If the project was growing I would want to move into something like Next.js because of their [excellent "handler" for their API routes](https://nextjs.org/docs/api-routes/introduction) which handles... all the work at securing them. I am obligated to say React will leak your API keys like a sieve. All the serverless stuff you can get into is not bad either and is useful when dealing with tons of data and pages at scale.
 
+---
+
+## **_Thank you for the opportunity to complete this challenge!!_**

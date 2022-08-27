@@ -1,0 +1,23 @@
+button[type="submit"] {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+fieldset {
+  margin: 2rem;
+}
+
+.errored {
+  border: 4px dashed red;
+}
+
+.error-message {
+  font-size: small;
+  color: red;
+}
+
+input,
+button {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+}
