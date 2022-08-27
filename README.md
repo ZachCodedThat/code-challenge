@@ -29,4 +29,4 @@ To keep it within the spirit of the challenge time frame I didn't set up any nod
 If the project was growing I would want to move into something like Next.js because of their [excellent "handler" for their API routes](https://nextjs.org/docs/api-routes/introduction) which handles... all the work at securing them. I am obligated to say React will leak your API keys like a sieve. All the serverless stuff you can get into is not bad either and is useful when dealing with tons of data and pages at scale.
 
 ---
- `npx zpinfo` to check out all my links in one neat package. 
+ `npx zpinfo` to check out all my links in one neat package which uses a bit of node magic. 
