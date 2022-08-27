@@ -64,7 +64,7 @@ export default function App() {
         ))}
         <br />
         <br />
-        Avatar!
+        Enter your avatar image url:
         <input
           type="text"
           name={zForm.fields.avatarImageUrl()}

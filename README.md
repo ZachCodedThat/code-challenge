@@ -10,7 +10,7 @@
 
 ## What's under the hood
 
-I used React and Typescript to build this out. React in this instance I wanted useState and access to JSX which makes setting data and getting it to screen when I want it that much less of a hassle. TS gives me that sweet sweet intelisense and pushes me to better data flow patterns when I am not using it.
+I used React and Typescript to build this out. React in this instance I wanted useState and access to JSX which makes setting data and getting it to screen when I want it that much less of a hassle and felt like the perfect fit for this exercise. TS gives me that sweet sweet intelisense and pushes me to better data flow patterns when I am not using it.
 
 To super charge the situation I am using [Zod](https://github.com/colinhacks/zod) and a package called [react-Zorm](https://github.com/esamattis/react-zorm) (shout out to them this package is AWESOME) to help me with the always fun task of form validation and lets me do cool stuff like:
 
