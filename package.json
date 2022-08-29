@@ -1,7 +1,7 @@
 {
   "name": "code-challenge",
   "version": "1.0.0",
-  "description": "Blue Bunny Code Challenge!",
+  "description": "Blue Rabbit Code Challenge!",
   "main": "src/index.tsx",
   "dependencies": {
     "react": "18.2.0",
