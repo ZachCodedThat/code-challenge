@@ -1,4 +1,4 @@
-# Blue Bunny Coding Challenge
+# Blue Rabit Coding Challenge
 
 ## To get this thing fired up:
 
